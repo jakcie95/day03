@@ -15,5 +15,6 @@ public class Quiz02 {
 		}else {
 			System.out.println("∫Ò¡§ªÛ");
 		}
+		sc.close();
 }
 }

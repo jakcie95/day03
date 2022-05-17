@@ -25,5 +25,6 @@ public class Quiz01 {
 		}else if(avg >= 80) {
 			System.out.println("гу╟щ");
 		}
+		sc.close();
 }
 }

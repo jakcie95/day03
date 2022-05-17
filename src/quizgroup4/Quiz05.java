@@ -20,6 +20,6 @@ public class Quiz05 {
 		}else {
 			System.out.println("첫번째줄입니다");
 		}
-				
+		sc.close();		
 }
 }

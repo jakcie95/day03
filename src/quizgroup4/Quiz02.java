@@ -22,6 +22,6 @@ public class Quiz02 {
 		}else {
 			System.out.println("어린이 입니다");
 		}
-		
+		sc.close();
 }
 }

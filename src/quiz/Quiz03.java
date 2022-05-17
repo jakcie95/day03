@@ -34,7 +34,7 @@ public class Quiz03 {
 				}
 			}
 		}
-		
+		sc.close();
 		
 }
 }

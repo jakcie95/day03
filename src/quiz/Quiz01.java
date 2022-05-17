@@ -14,7 +14,7 @@ public class Quiz01 {
 		}else {
 			System.out.println("5의 배수가 아님");
 		}
-
+		sc.close();
 
 }
 }

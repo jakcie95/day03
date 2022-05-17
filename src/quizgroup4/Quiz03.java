@@ -25,6 +25,6 @@ public class Quiz03 {
 			System.out.println("학급이 부족합니다.");
 			System.out.println("남은 학생은 " + remain +"명 입니다.");
 		}
-		
+		sc.close();
 }
 }

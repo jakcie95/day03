@@ -20,6 +20,7 @@ public class Quiz05 {
 			System.out.println(a + "원을 출금합니다.");
 			System.out.println("잔액은" + (bank - a) +"원 입니다.");
 		}
+		sc.close();
 	}
 
 }
