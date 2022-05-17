@@ -30,5 +30,6 @@ public class Ex02 {
 		}else {
 			System.out.println("그 외의 값");
 		}
+		sc.close();
 }
 }
