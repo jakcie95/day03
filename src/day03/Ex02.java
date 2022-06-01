@@ -6,29 +6,29 @@ public class Ex02 {
 
 	public static void main(String[] args) {
 		/*
-		 if(Á¶°Ç½Ä){
-		 	Á¾¼Ó¹®Àå
-		 }else if(Á¶°Ç½Ä){
-		 	Á¾¼Ó¹®Àå
-		 }else if(Á¶°Ç½Ä){
-		 	Á¾¼Ó¹®Àå
+		 if(ì¡°ê±´ì‹){
+		 	ì¢…ì†ë¬¸ì¥
+		 }else if(ì¡°ê±´ì‹){
+		 	ì¢…ì†ë¬¸ì¥
+		 }else if(ì¡°ê±´ì‹){
+		 	ì¢…ì†ë¬¸ì¥
 		 }...
 		 else{
-		 	Á¾¼Ó¹®Àå
+		 	ì¢…ì†ë¬¸ì¥
 		 }
 		 */
 		Scanner sc = new Scanner(System.in);
 		int num;
-		System.out.println("¼öÀÔ·Â : ");
+		System.out.println("ìˆ˜ì…ë ¥ : ");
 		num = sc.nextInt();
 		if(num > 100) {
-			System.out.println("100º¸´Ù Å©´Ù");
+			System.out.println("100ë³´ë‹¤ í¬ë‹¤");
 		}else if(num > 70) {
-			System.out.println("70º¸´Ù Å©´Ù");
+			System.out.println("70ë³´ë‹¤ í¬ë‹¤");
 		}else if(num > 40) {
-			System.out.println("40º¸´Ù Å©´Ù");
+			System.out.println("40ë³´ë‹¤ í¬ë‹¤");
 		}else {
-			System.out.println("±× ¿ÜÀÇ °ª");
+			System.out.println("ê·¸ ì™¸ì˜ ê°’");
 		}
 		sc.close();
 }

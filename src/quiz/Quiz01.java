@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Quiz01 {
 
 	public static void main(String[] args) {
-		//¼ö¸¦ ÀÔ·Â ¹Ş¾Æ 5ÀÇ ¹è¼öÀÎÁö ¾Æ´ÑÁö ±¸ºĞ
+		//ìˆ˜ë¥¼ ì…ë ¥ ë°›ì•„ 5ì˜ ë°°ìˆ˜ì¸ì§€ ì•„ë‹Œì§€ êµ¬ë¶„
 		Scanner sc = new Scanner(System.in);
-		System.out.println("¼ö ÀÔ·Â : ");
+		System.out.println("ìˆ˜ ì…ë ¥ : ");
 		int su = sc.nextInt();
 		if(su%5 == 0) {
-			System.out.println("5ÀÇ ¹è¼ö");
+			System.out.println("5ì˜ ë°°ìˆ˜");
 		}else {
-			System.out.println("5ÀÇ ¹è¼ö°¡ ¾Æ´Ô");
+			System.out.println("5ì˜ ë°°ìˆ˜ê°€ ì•„ë‹˜");
 		}
 		sc.close();
 

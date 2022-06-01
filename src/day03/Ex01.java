@@ -4,12 +4,12 @@ public class Ex01 {
 
 	public static void main(String[] args) {
 		int num = 10;
-		if(num%2 == 0) {//Á¶°ÇÀÌ ÂüÀÌ¸é Á¾¼Ó ¹®Àå ½ÇÇà
-			System.out.println("Â¦¼ö");
-		}else {//if Á¶°ÇÀÌ °ÅÁşÀÌ¸é else ½ÇÇà
-			System.out.println("È¦¼ö");
+		if(num%2 == 0) {//ì¡°ê±´ì´ ì°¸ì´ë©´ ì¢…ì† ë¬¸ì¥ ì‹¤í–‰
+			System.out.println("ì§ìˆ˜");
+		}else {//if ì¡°ê±´ì´ ê±°ì§“ì´ë©´ else ì‹¤í–‰
+			System.out.println("í™€ìˆ˜");
 		}
-		System.out.println("´ÙÀ½ ¹®Àåµé ½ÇÇà");
+		System.out.println("ë‹¤ìŒ ë¬¸ì¥ë“¤ ì‹¤í–‰");
 		
 		
 }

@@ -6,19 +6,19 @@ public class Quiz05 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		//5.ÇÕÃ¢À» À§ÇØ Å° ¼øÀ¸·Î »ç¶÷µéÀ» ÁÙÀ» ¼¼¿ì·Á°í ÇÑ´Ù.
-		//170cm ÀÌ»óÀº '4¹øÂ° ÁÙ', 160cm ÀÌ»óÀº '3¹øÂ° ÁÙ', 150cm ÀÌ»óÀº '2¹øÂ° ÁÙ', 150cm ¹Ì¸¸Àº '1¹øÂ° ÁÙ'·Î Ãâ·ÂÇÏ¼¼¿ä
+		//5.í•©ì°½ì„ ìœ„í•´ í‚¤ ìˆœìœ¼ë¡œ ì‚¬ëŒë“¤ì„ ì¤„ì„ ì„¸ìš°ë ¤ê³  í•œë‹¤.
+		//170cm ì´ìƒì€ '4ë²ˆì§¸ ì¤„', 160cm ì´ìƒì€ '3ë²ˆì§¸ ì¤„', 150cm ì´ìƒì€ '2ë²ˆì§¸ ì¤„', 150cm ë¯¸ë§Œì€ '1ë²ˆì§¸ ì¤„'ë¡œ ì¶œë ¥í•˜ì„¸ìš”
 		double height;
-		System.out.println("Å°´Â ¸î cmÀÔ´Ï±î? : ");
+		System.out.println("í‚¤ëŠ” ëª‡ cmì…ë‹ˆê¹Œ? : ");
 		height = sc.nextDouble();
 		if(height >= 170) {
-			System.out.println("4¹øÂ°ÁÙ ÀÔ´Ï´Ù.");
+			System.out.println("4ë²ˆì§¸ì¤„ ì…ë‹ˆë‹¤.");
 		}else if(height >= 160) {
-			System.out.println("3¹øÂ°ÁÙ ÀÔ´Ï´Ù.");
+			System.out.println("3ë²ˆì§¸ì¤„ ì…ë‹ˆë‹¤.");
 		}else if(height >= 150) {
-			System.out.println("2¹øÂ°ÁÙ ÀÔ´Ï´Ù.");
+			System.out.println("2ë²ˆì§¸ì¤„ ì…ë‹ˆë‹¤.");
 		}else {
-			System.out.println("Ã¹¹øÂ°ÁÙÀÔ´Ï´Ù");
+			System.out.println("ì²«ë²ˆì§¸ì¤„ì…ë‹ˆë‹¤");
 		}
 		sc.close();		
 }

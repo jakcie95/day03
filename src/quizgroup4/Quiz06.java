@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class Quiz06 {
 
 	public static void main(String[] args) {
-		//6.±¹¾î, ¿µ¾î, ¼öÇĞ Á¡¼ö¸¦ ÀÔ·ÂÇÏ¿© Æò±Õ 90Á¡ ÀÌ»óÀÌ¸é 'A', 80Á¡ ÀÌ»óÀÌ¸é 'B', 70Á¡ ÀÌ»óÀÌ¸é 'C',
-				//±× ÀÌ¿Ü¿¡´Â 'D'¸¦ Ãâ·ÂÇÏ¼¼¿ä.
+		//6.êµ­ì–´, ì˜ì–´, ìˆ˜í•™ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì—¬ í‰ê·  90ì  ì´ìƒì´ë©´ 'A', 80ì  ì´ìƒì´ë©´ 'B', 70ì  ì´ìƒì´ë©´ 'C',
+				//ê·¸ ì´ì™¸ì—ëŠ” 'D'ë¥¼ ì¶œë ¥í•˜ì„¸ìš”.
 		Scanner sc = new Scanner(System.in);
 		int kor, eng, math;
 		int sum;
 		double avg;
-		System.out.println("±¹¾î Á¡¼ö : ");
+		System.out.println("êµ­ì–´ ì ìˆ˜ : ");
 		kor = sc.nextInt();
-		System.out.println("¿µ¾î Á¡¼ö : ");
+		System.out.println("ì˜ì–´ ì ìˆ˜ : ");
 		eng = sc.nextInt();
-		System.out.println("¼öÇĞ Á¡¼ö : ");
+		System.out.println("ìˆ˜í•™ ì ìˆ˜ : ");
 		math = sc.nextInt();
 		sum = kor + eng + math;
 		avg = sum/3;

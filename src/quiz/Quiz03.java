@@ -5,32 +5,32 @@ import java.util.Scanner;
 public class Quiz03 {
 
 	public static void main(String[] args) {
-		//¼ö¸¦ ÀÔ·Â ¹Ş¾Æ Â¦¼öÀÌ¸é¼­ 3ÀÇ ¹è¼öÀÌ¸é Ãâ·Â, ¾Æ´Ô
+		//ìˆ˜ë¥¼ ì…ë ¥ ë°›ì•„ ì§ìˆ˜ì´ë©´ì„œ 3ì˜ ë°°ìˆ˜ì´ë©´ ì¶œë ¥, ì•„ë‹˜
 		Scanner sc = new Scanner(System.in);
-		System.out.println("¼ö ÀÔ·Â : ");
+		System.out.println("ìˆ˜ ì…ë ¥ : ");
 		int su = sc.nextInt();
 		if(su%6 == 0) {//su%2 == 0 && su%3 == 0
-			System.out.println("Â¦¼ö¸é¼­ 3ÀÇ ¹è¼ö");
+			System.out.println("ì§ìˆ˜ë©´ì„œ 3ì˜ ë°°ìˆ˜");
 		
 		}else {
-			System.out.println("¾Æ´Ô");
+			System.out.println("ì•„ë‹˜");
 		}
-		//¼ö¸¦ ÀÔ·Â ¹Ş¾Æ Â¦¼öÀÌ¸é¼­ 3ÀÇ ¹è¼öÀÌ¸é Ãâ·Â
-		//3ÀÇ ¹è¼ö°¡ ¾Æ´Ï¸ç, Â¦¼ö¸¸ ÇØ´çÇÏ¸é Â¦¼ö, ¶Ç´Â È¦¼ö
-		//Â¦¼ö°¡ ¾Æ´Ï¸ç, 3ÀÇ ¹è¼ö¿¡¸¸ ÇØ´çÇÏ¸é 3ÀÇ ¹è¼ö, ¾Æ´Ô
-		//ÇØ´ç µÇÁö ¾ÊÀ¸¸é ÇØ´çµÇÁö ¾ÊÀ½
-		System.out.println("¼ö ÀÔ·Â : ");
+		//ìˆ˜ë¥¼ ì…ë ¥ ë°›ì•„ ì§ìˆ˜ì´ë©´ì„œ 3ì˜ ë°°ìˆ˜ì´ë©´ ì¶œë ¥
+		//3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹ˆë©°, ì§ìˆ˜ë§Œ í•´ë‹¹í•˜ë©´ ì§ìˆ˜, ë˜ëŠ” í™€ìˆ˜
+		//ì§ìˆ˜ê°€ ì•„ë‹ˆë©°, 3ì˜ ë°°ìˆ˜ì—ë§Œ í•´ë‹¹í•˜ë©´ 3ì˜ ë°°ìˆ˜, ì•„ë‹˜
+		//í•´ë‹¹ ë˜ì§€ ì•Šìœ¼ë©´ í•´ë‹¹ë˜ì§€ ì•ŠìŒ
+		System.out.println("ìˆ˜ ì…ë ¥ : ");
 		int su2 = sc.nextInt();
 		if(su2%6 == 0) {
-			System.out.println("Â¦¼ö¸é¼­ 3ÀÇ ¹è¼ö");
+			System.out.println("ì§ìˆ˜ë©´ì„œ 3ì˜ ë°°ìˆ˜");
 		}else {
 			if(su2%3 == 0) {
-				System.out.println("3ÀÇ ¹è¼ö");
+				System.out.println("3ì˜ ë°°ìˆ˜");
 			}else {
 				if(su2%2 == 0) {
-					System.out.println("Â¦¼ö");
+					System.out.println("ì§ìˆ˜");
 				}else {
-					System.out.println("ÇØ´ç¾øÀ½");
+					System.out.println("í•´ë‹¹ì—†ìŒ");
 				}
 			}
 		}

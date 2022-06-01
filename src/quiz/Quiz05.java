@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class Quiz05 {
 
 	public static void main(String[] args) {
-		//100¸¸¿øÀÌ ÀÖ´Â °èÁÂ¿¡¼­ ¸¸¿ø ´ÜÀ§·Î µ·À» ÀÔ·ÂÇØ¼­
-		//ÀÎÃâÇÑµÚ ÀÜ¾× Ãâ·ÂÇÏ±â
-		//ÀÎÃâÇÒ ±İ¾×ÀÌ 100¸¸¿ø º¸´Ù ¸¹À»½Ã ÀÜ¾×ºÎÁ· Ãâ·Â
+		//100ë§Œì›ì´ ìˆëŠ” ê³„ì¢Œì—ì„œ ë§Œì› ë‹¨ìœ„ë¡œ ëˆì„ ì…ë ¥í•´ì„œ
+		//ì¸ì¶œí•œë’¤ ì”ì•¡ ì¶œë ¥í•˜ê¸°
+		//ì¸ì¶œí•  ê¸ˆì•¡ì´ 100ë§Œì› ë³´ë‹¤ ë§ì„ì‹œ ì”ì•¡ë¶€ì¡± ì¶œë ¥
 		int bank = 1000000;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("ÀÎÃâÇÒ ±İ¾×À» ÀÔ·ÂÇØ ÁÖ½Ê½Ã¿À");
+		System.out.println("ì¸ì¶œí•  ê¸ˆì•¡ì„ ì…ë ¥í•´ ì£¼ì‹­ì‹œì˜¤");
 		int a =sc.nextInt();
 		if(a > bank) {
-			System.out.println("ÀÜ¾×ÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+			System.out.println("ì”ì•¡ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 		}else if(a % 10000 != 0) {
-			System.out.println("¸¸¿ø ´ÜÀ§·Î¸¸ ÀÎÃâ °¡´ÉÇÕ´Ï´Ù.");
+			System.out.println("ë§Œì› ë‹¨ìœ„ë¡œë§Œ ì¸ì¶œ ê°€ëŠ¥í•©ë‹ˆë‹¤.");
 		}else {
-			System.out.println(a + "¿øÀ» Ãâ±İÇÕ´Ï´Ù.");
-			System.out.println("ÀÜ¾×Àº" + (bank - a) +"¿ø ÀÔ´Ï´Ù.");
+			System.out.println(a + "ì›ì„ ì¶œê¸ˆí•©ë‹ˆë‹¤.");
+			System.out.println("ì”ì•¡ì€" + (bank - a) +"ì› ì…ë‹ˆë‹¤.");
 		}
 		sc.close();
 	}

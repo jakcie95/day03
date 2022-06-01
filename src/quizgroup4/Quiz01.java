@@ -7,23 +7,23 @@ public class Quiz01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		//1.
-		// ±¹¾î, ¿µ¾î, ¼öÇĞ Á¡¼ö¸¦ ÀÔ·Â¹Ş°í Æò±ÕÀÌ 80Á¡ ÀÌ»óÀÌ¸é "ÇÕ°İ"À» Ãâ·ÂÇÏ¼¼¿ä.
-		//- ´Ü, ÇÑ °ú¸ñÀÌ¶óµµ 60Á¡ ¹Ì¸¸ÀÏ½Ã "ºÒÇÕ°İ"À» Ãâ·ÂÇÏ¼¼¿ä.
+		// êµ­ì–´, ì˜ì–´, ìˆ˜í•™ ì ìˆ˜ë¥¼ ì…ë ¥ë°›ê³  í‰ê· ì´ 80ì  ì´ìƒì´ë©´ "í•©ê²©"ì„ ì¶œë ¥í•˜ì„¸ìš”.
+		//- ë‹¨, í•œ ê³¼ëª©ì´ë¼ë„ 60ì  ë¯¸ë§Œì¼ì‹œ "ë¶ˆí•©ê²©"ì„ ì¶œë ¥í•˜ì„¸ìš”.
 		int kr, eng, math;
-		System.out.println("±¹¾î Á¡¼ö : ");
+		System.out.println("êµ­ì–´ ì ìˆ˜ : ");
 		kr = sc.nextInt();
-		System.out.println("¿µ¾îÁ¡¼ö : ");
+		System.out.println("ì˜ì–´ì ìˆ˜ : ");
 		eng = sc.nextInt();
-		System.out.println("¼öÇĞÁ¡¼ö : ");
+		System.out.println("ìˆ˜í•™ì ìˆ˜ : ");
 		math = sc.nextInt();
 		int sum = kr + eng + math;
 		double avg = sum/3;
 		if(kr < 60 || eng < 60) {
-			System.out.println("ºÒÇÕ°İ");
+			System.out.println("ë¶ˆí•©ê²©");
 		}else if(math < 60) {
-			System.out.println("ºÒÇÕ°İ");
+			System.out.println("ë¶ˆí•©ê²©");
 		}else if(avg >= 80) {
-			System.out.println("ÇÕ°İ");
+			System.out.println("í•©ê²©");
 		}
 		sc.close();
 }

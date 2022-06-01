@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Quiz04 {
 
 	public static void main(String[] args) {
-		//Á¤¼ö 3°³¸¦ ÀÔ·Â¹Ş¾Æ ÃÖ´ë°ª°ú ÃÖ¼Ò°ªÀ» ±¸ÇÏ½Ã¿À 
+		//ì •ìˆ˜ 3ê°œë¥¼ ì…ë ¥ë°›ì•„ ìµœëŒ€ê°’ê³¼ ìµœì†Œê°’ì„ êµ¬í•˜ì‹œì˜¤ 
 		Scanner sc = new Scanner(System.in);
-	        System.out.print("Á¤¼ö 3°³ ÀÔ·Â: ");
+	        System.out.print("ì •ìˆ˜ 3ê°œ ì…ë ¥: ");
 	        int num1 = sc.nextInt();
 	        int num2 = sc.nextInt();
 	        int num3 = sc.nextInt();
@@ -29,8 +29,8 @@ public class Quiz04 {
 	                min = num3;
 	            }
 	        }
-	        System.out.println("ÃÖ´ë°ª : " + max);
-	        System.out.println("ÃÖ¼Ò°ª : " + min);
+	        System.out.println("ìµœëŒ€ê°’ : " + max);
+	        System.out.println("ìµœì†Œê°’ : " + min);
 	        sc.close();
 	}
 }

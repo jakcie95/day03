@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class Quiz02 {
 	
 	public static void main(String[] args) {
-	//¼ö¸¦ ÀÔ·Â¹Ş¾Æ 0º¸´Ù Å©°í 100º¸´Ù ÀÛÀ¸¸é Á¤»ó,
-		//¾Æ´Ï¸é ºñÁ¤»óÀ¸·Î Ãâ·Â
+	//ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ 0ë³´ë‹¤ í¬ê³  100ë³´ë‹¤ ì‘ìœ¼ë©´ ì •ìƒ,
+		//ì•„ë‹ˆë©´ ë¹„ì •ìƒìœ¼ë¡œ ì¶œë ¥
 		Scanner sc = new Scanner(System.in);
-		System.out.println("¼ö ÀÔ·Â : ");
+		System.out.println("ìˆ˜ ì…ë ¥ : ");
 		int su = sc.nextInt();
 		if(su > 0 && su < 100) {
-			System.out.println("Á¤»ó");
+			System.out.println("ì •ìƒ");
 		}else {
-			System.out.println("ºñÁ¤»ó");
+			System.out.println("ë¹„ì •ìƒ");
 		}
 		sc.close();
 }
